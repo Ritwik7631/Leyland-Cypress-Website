@@ -1,0 +1,17 @@
+{
+  "name": "Leyland Cypress Website",
+  "install": "bash .cursor/setup.sh",
+  "terminals": [
+    {
+      "name": "next-dev",
+      "command": "npm run dev",
+      "description": "Next.js 14 development server, served on http://localhost:3000"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 3000
+    }
+  ]
+}
